@@ -1,22 +1,13 @@
-const cifrao = '\u0024'
-const aMaiusculo = '\u0041'
-const tique = '\u2705'
-const hiragana = '\u3041'
+const texto1 = "Olá, mundo!";
+const texto2 = 'Olá, mundo!';
+const senha = "senhaSuperSegura456!";
+const StringDeNumeros = "34567";
 
-console.log(cifrao)
-console.log(aMaiusculo)
-console.log(tique)
-console.log(hiragana)
+const citacao = "Meu nome é ";
+const meuNome = "Leonardo";
 
-//Trabalhando com Strings
-const cidade = "belo horizonte";
-const input = "Belo Horizonte";
+// concatenação (+)
 
-console.log(cidade === input); // false
+console.log(citacao + meuNome)
 
-const cidade02 = "belo horizonte";
-const input02 = "Belo Horizonte";
-
-const inputMinusculo02 = input02.toLowerCase(); //Suando fun��o toLowercase para deixa todos caracters minusculos
-
-console.log(cidade02 === inputMinusculo02); // true
+//template string OU template literal

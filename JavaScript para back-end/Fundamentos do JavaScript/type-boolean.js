@@ -1,4 +1,14 @@
-const num01 = 5;
-const num02 = 12;
+// boolean
+// true -> verdadeiro
+// false -> falso
 
-console.log(num01 === num02);
+const primeiroNumero = 5;
+const segundoNumero = 5;
+let cadastroAtivado = true;
+
+//console.log(primeiroNumero === segundoNumero);
+
+const texto1 = "Alura";
+const texto2 = "alura";
+
+console.log(texto1 === texto2)
