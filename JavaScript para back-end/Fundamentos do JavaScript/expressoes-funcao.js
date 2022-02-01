@@ -6,18 +6,18 @@ function minhaFuncao(param) {
 
 minhaFuncao("param")
 
-// expressÃ£o de funÃ§Ã£o
+// expressão de função
 
 const soma = function(num1, num2) { return num1 + num2 }
 console.log(soma(1, 1))
 
-// diferenÃ§a principal: HOISTING
-// funÃ§Ãµes e var sÃ£o "listadas" no topo do arquivo.
+// diferença principal: HOISTING
+// funçõµes e var são "listadas" no topo do arquivo.
 
 console.log(apresentar())
 
 function apresentar() {
-  return "olá¡";
+  return "olá!";
 }
 
 console.log(somaOutroExemplo(1, 1))

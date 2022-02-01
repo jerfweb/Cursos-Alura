@@ -1,12 +1,32 @@
-var respostaDeTudo = 42
-let idade = 29
-const pi = 3.14
+let a = [];
+let b = 20;
+let c = true ;
+let d = '';
 
-{
-    var respostaDeTudo = 3.14
-    let idade = 42
-    const pi = 29
-    console.log(respostaDeTudo, idade, pi)
+// if (b === 20 && c != false && d == 0) {
+//     console.log('Verdade')
+// } else {
+//     console.log('Falso')
+// }
 
-}
-console.log(respostaDeTudo, idade, pi)
+// if (a == 0) {
+//     console.log('Verdade')
+// } else {
+//     console.log('Falso')
+// }
+
+// if (d) {
+//     console.log('Verdade')
+// } else {
+//     console.log('Falso')
+// }
+
+// if (b == 20) {
+//     console.log('Verdade')
+// } else {
+//     console.log('Falso')
+// }
+
+const num = [5,100,1,63,460];
+const min = Math.min(...num);
+console.log(min);
